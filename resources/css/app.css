@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gradient {
+    background: linear-gradient(90deg, #4b79a1, #283e51);
+}
+
+.navbar-brand:hover {
+    text-shadow: 0 0 10px #fff;
+}
+
+.hover-effect:hover {
+    color: #f39c12 !important;
+    border-bottom: 2px solid #f39c12;
+}
+
+.animate-icon {
+    transition: transform 0.3s ease-in-out;
+}
+
+.animate-icon:hover {
+    transform: scale(1.2);
+}
